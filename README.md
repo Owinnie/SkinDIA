@@ -1,1 +1,2 @@
-## Binary classification\n### Types of Eczema
+## Binary classification
+### Types of Eczema

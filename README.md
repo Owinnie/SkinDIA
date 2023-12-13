@@ -1,5 +1,6 @@
 # SkinDIA - Skin Condition Classification (Acne and Eczema)
 <p>SkinDIA is a web-based application that classifies uploaded photos as either acne or eczema. Users can easily obtain predictions for their skin conditions with just a few clicks. This project is built with Flask for the backend and incorporates a trained machine learning model (82% accuracy) for accurate predictions.</p>
+App is live at: <a href="https://skin-dia-d5403d11a97c.herokuapp.com/" target="_blank">SkinDIA</a>
 
 ## Features
 <ul>

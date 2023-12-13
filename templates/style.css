@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: floralwhite;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background-image: url('images/acnebackgrnd2.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 0 2rem;
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 60px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+
+.form {
+    text-align: center;
+    justify-content: center;
+}
+
+#cameraButton, #fileInput, #captureButton {
+    display: block;
+    margin: 10px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#cameraButton {
+    border-radius: 50px;
+}
+
+#cameraButton:hover {
+    background-color: rgb(184, 218, 218);
+}
+
+.pred {
+    background-color: black;
+    color: antiquewhite;
+    font-size: larger;
+    border-radius: 50px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+.pred:hover {
+    background-color: rgb(43, 39, 39);
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+#cameraButton {
+    margin-bottom: 100px;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    color: azure;
+    background-color: rgb(102, 173, 255);
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width <= 510px) {
+    header {
+        height: 46vh;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 610px) {
+    header {
+        height: 76vh;
+    }
+
+    body{
+        margin: -70px;
+    }
+
+    h1 {
+        
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 810px) {
+    header {
+        height: 80vh;
+        background-size: contain;
+    }
+
+    h1 {
+        margin-top: -30px;
+    }
+}

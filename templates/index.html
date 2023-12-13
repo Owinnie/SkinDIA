@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/ico" href="/templates/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" />
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="/templates/style.css" />
+    <title>SkinDIA</title>
+</head>
+<body>
+    <!-- BACKGROUND IMAGE -->
+    <header></header>
+    <h1>SKIN DIAGNOSIS: Acne or Eczema</h1>
+
+    <!-- FORM ELEMENTS -->
+    <div class="form">
+        <form id="uploadForm" action="/predict" method="post" enctype="multipart/form-data">
+            <input id="fileInput" type="file" name="file" accept=".jpg, .jpeg, .png" required>
+            <input id="capturedPhotoInput" type="hidden" name="capturedPhoto">
+            <button class="pred" type="submit">Predict</button>
+            <br><br><br><br>
+        </form>
+        <button id="cameraButton">Use Camera</button>
+        <button id="captureButton" style="display: none;">Capture Photo</button>        
+    </div>
+    <footer>
+        <hr>
+        <map name="flogo">
+            <br><br>
+            <a title="SkinDIA logo" href="/templates/index.html">
+              <area shape="circle" coords="75,75,75" href="/templates/index.html" alt="Footer logo redirecting to home page">
+            </a>
+          </map>
+          <img usemap="#flogo" src="/templates/images/footer_logo.png" alt="SkinDIA logo"
+            title="StudyMasterguide logo" width="112" height="35">
+        </div>
+        <small>
+            <p>More about acne: <a href="https://www.mayoclinic.org/diseases-conditions/acne/symptoms-causes/syc-20368047#" target="_blank" rel="noreferrer noopener">Acne info</a></p>
+            <p>More about eczema: <a href="https://www.mayoclinic.org/diseases-conditions/atopic-dermatitis-eczema/symptoms-causes/syc-20353273#" target="_blank" rel="noreferrer noopener">Eczema info</a></p>
+            <p><a href="https://github.com/Owinnie/SkinDIA" target="_blank">GitHub/SkinDIA</a></p>
+            <br><br>
+        </small>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="/templates/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+p {
+    font-size: 30px;
+}
+
+.actionBtn {
+    text-decoration: none;
+    margin-left: 150px;
+    background-color: rgb(5, 91, 97);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+}
+
+.actionBtn:hover {
+    scale: 1.05;
+    color: orange;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.actionBtn:active {
+    scale: 0.95;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width <= 510px) {
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 610px) {
+    p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 810px) {
+    h1 {
+        margin-top: 200px;
+    }
+}

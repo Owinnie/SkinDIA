@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/ico" href="/templates/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" />
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="/templates/style.css" />
+    <link rel="stylesheet" href="/templates/styles2.css" />
+    <title>SkinDIA: Result</title>
+</head>
+<body>
+    <h1>Your Results</h1>
+    <p class="result">Prediction: {{ result }}</p>
+    <p class="result">You've got {{ result }} with {{ '%.2f'|format(prediction[0][0]*100) }}% confidence</p>
+    <a href="/templates/index.html" class="actionBtn">Back Home</a>
+</body>
+</html>

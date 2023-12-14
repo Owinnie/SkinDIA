@@ -1,5 +1,10 @@
+body{
+    text-align: center;
+}
+
 p {
     font-size: 30px;
+    text-align: center;
 }
 
 .actionBtn {
@@ -34,12 +39,14 @@ p {
 @media (max-width <= 510px) {
     p {
         font-size: 15px;
+        text-align: center;
     }
 }
 
 @media (max-width: 610px) {
     p {
         font-size: 25px;
+        text-align: center;
     }
 }
 
